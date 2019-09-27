@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body{
+        margin: 0px;
+        padding: 0px;
+      }
+      #canvas1 {
+        width: 350px;
+        height: 100px;
+        padding: 10px;
+        border: 1px solid #aaaaaa;
+      }
+
+      </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <canvas id="canvas1" onmouseup = "onmouseUp()" ondrop="drop(event)"  ondragover="allowDrop(event)">
+    </canvas>
+    <br>
+    <img id="image1" src="H.png"  width="30" height="30">
+    <script src="script.js"></script>
+  </body>
+</html>
